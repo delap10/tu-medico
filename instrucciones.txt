@@ -1,0 +1,12 @@
+INSTRUCCIONES
+
+1. Descarga todo el proyecto, de preferencia en formato zip
+2. Extrae la carpeta, tu-medico, que esté dentro del archivo comprimido
+3. Pega la carpeta extraída en la carpeta htdocs del servidor xampp (ruta: C\xampp\htdocs)
+4. Abre el Xampp Control Panel y enciende el servidor Apache. Por ahora aún no se usa bd.
+5. Abre el navegador y entra a la siguiente url: localhost/tu-medico
+6. Mira el avance
+
+NOTA: La plantilla la tome de un tema de Bootstrap, está totalmente sujeta a cambios, es lo que se me ocurrió hasta ahora.
+Si tienes alguna otra idea, me la dices y ya la hacemos. Queda pendiente el análisis de la bd para poder hacer las
+transacciones necesarias
