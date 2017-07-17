@@ -7,10 +7,17 @@
 	<link rel="stylesheet" type="text/css" href="lib/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fresca|Lobster|Shadows+Into+Light" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="lib/js/jquery.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      	#map {
+        	width: 100%;
+        	height: 600px;
+        	background-color: grey;
+      		}
+    </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -35,12 +42,36 @@
 	</nav>
 
 	<div class="jumbotron text-center">
+		<img src="lib/img/logo.png" width="350">
   		<h1>Tú, médico</h1> 
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
 
+	<!-- Container (Maps Section) -->
+	<div id="contact" class="container-fluid">
+		<div class="row">
+			<div id="map"></div>
+			<script>
+		     	function initMap() {
+		        	var uluru = {lat: 14.879146, lng: -92.254614};
+		        	var map = new google.maps.Map(document.getElementById('map'), {
+		        		zoom: 17,
+		          		center: uluru
+		        	});
+		        	var marker = new google.maps.Marker({
+		          		position: uluru,
+		          		map: map
+		        	});
+		      	}
+		    </script>
+		    <script async defer
+		    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi9aD0KzlOU74UwjC21GLVVaqgdMmOQh0&callback=initMap">
+		    </script>
+		</div>
+	</div>
+
 	<!-- Container (Contact Section) -->
-	<div id="contact" class="container-fluid bg-grey">
+	<div class="container-fluid bg-grey">
   		<h2 class="text-center">CONTACT</h2>
   		<div class="row">
     		<div class="col-sm-5">

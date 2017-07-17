@@ -35,6 +35,7 @@
 	</nav>
 
 	<div class="jumbotron text-center">
+		<img src="lib/img/logo.png" width="350">
   		<h1>Tú, médico</h1> 
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
