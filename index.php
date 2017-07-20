@@ -25,9 +25,32 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	    	<ul class="nav navbar-nav navbar-right">
-	        	<li><a href="#home">HOME</a></li>
+	        	<li><a href="#home">INICIO</a></li>
 	        	<li><a href="about.php">CONÓCENOS</a></li>
+	        	<li><a href="#curso">CURSOS</a></li>
+	        	<li><a href="#evento">EVENTOS</a></li>
+	        	<li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			        	VIDEOS <b class="caret"></b>
+			        </a>
+			        <ul class="dropdown-menu">
+			          	<li><a href="#">DESASTRES</a></li>
+			          	<li class="divider"></li>
+				        <li><a href="#">PRIMEROS AUXILIOS</a></li>
+				        <li class="divider"></li>
+				        <li><a href="#">FARMACOLOGÍA</a></li>
+			        </ul>
+			    </li>
 	        	<li><a href="#portfolio">COMUNIDAD</a></li>
+	        	<li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			        	TRABAJOS <b class="caret"></b>
+			        </a>
+			        <ul class="dropdown-menu">
+			          	<li><a href="#">ENFERMERÍA</a></li>
+				        <li><a href="#">AUXILIARES DE ENFERMERÍA</a></li>
+			        </ul>
+			    </li>
 	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
 	      	</ul>
 	    </div>
@@ -35,7 +58,7 @@
 	</nav>
 
 	<div class="jumbotron text-center">
-		<img src="lib/img/logo.png" width="350">
+		<center><div class="circulo"></div></center><br>
   		<h1>Tú, médico</h1> 
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
@@ -43,28 +66,39 @@
 	<!-- Container (About Section) -->
 	<div id="home" class="container-fluid">
   		<div class="row">
-    		<div class="col-sm-8">
-      			<h2>About Company Page</h2><br>
-      			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      			<br><button class="btn btn-default btn-lg">Get in Touch</button>
+    		<div class="col-sm-7">
+      			<h2>¿Qué hacer en caso de una quemadura?</h2><br>
+      			<h4>La gravedad de la mayoría de las quemaduras se relaciona con el tamaño y la profundidad de la lesión. Sin embargo, las quemaduras eléctricas son más difíciles de diagnosticar, ya que pueden ocasionar lesiones importantes debajo de la piel sin mostrar signos de daños en la superficie.</h4>
+
+				<h4>Los síntomas varían desde una leve incomodidad hasta una emergencia con riesgo de muerte, según el tamaño y la profundidad (grado) de la quemadura.</h4>
+				
+				<h4>Las quemaduras por el sol y las pequeñas escaldaduras se pueden tratar en casa. Las quemaduras más profundas o generalizadas, y las eléctricas necesitan atención médica inmediata, a menudo en unidades especializadas en quemaduras.</h4>
+				
+				<p><span class="glyphicon glyphicon-list-alt"></span> Por lo general, se puede realizar un autodiagnóstico.</p>
+      			<p><span class="glyphicon glyphicon-ban-circle"></span> No se requieren análisis de laboratorio o estudios de diagnóstico por imágenes.</p>
+      			<p><span class="glyphicon glyphicon-time"></span> Agudas: se curan en cuestión de días o semanas.</p>
     		</div>
-    		<div class="col-sm-4">
-      			<span class="glyphicon glyphicon-signal logo"></span>
+    		<div class="col-sm-5">
+      			<img src="lib/img/quemadura.jpg" class="col-sm-12">
     		</div>
   		</div>
 	</div>
 
 	<div class="container-fluid bg-grey">
   		<div class="row">
-    		<div class="col-sm-4">
-      			<span class="glyphicon glyphicon-globe logo slideanim"></span>
+    		<div class="col-sm-5">
+      			<img src="lib/img/convulsion.jpg" class="col-sm-12"/>
     		</div>
-    		<div class="col-sm-8">
-      			<h2>Our Values</h2><br>
-      			<h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      			<p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		<div class="col-sm-7">
+      			<h2>¿Qué hacer en caso de una convulsión</h2><br>
+      			<h4>Las convulsiones son síntomas de un problema cerebral. Ocurren por la aparición súbita de una actividad eléctrica anormal en el cerebro. Cuando las personas piensan en convulsiones, suelen imaginarse el cuerpo de una persona que se sacude rápida y sin control. No todas las convulsiones provocan estas sacudidas. Existen muchos tipos de convulsiones y algunos tienen síntomas leves. Las convulsiones se dividen en dos grupos principales. Las convulsiones focales, también llamadas convulsiones parciales, ocurren en una parte del cerebro. Las convulsiones generalizadas son el resultado de actividades anormales en ambos lados del cerebro.</h4>
+
+      			<h4>La mayoría de las convulsiones duran de 30 segundos a dos minutos y no causan daños duraderos. Sin embargo, es una emergencia médica si las convulsiones duran más de cinco minutos o si una persona tiene muchas convulsiones y no se despierta entre éstas. Las convulsiones pueden tener muchas causas, entre las que se incluyen medicinas, fiebre alta, lesiones en la cabeza y ciertas enfermedades. Las personas que tienen convulsiones recurrentes debido a un trastorno cerebral tienen epilepsia.</h4>
+
+      			<p><span class="glyphicon glyphicon-ban-circle"></span> No trate de sujetar a la persona o evitar que se mueva.</p>
+      			<p><span class="glyphicon glyphicon-remove"></span> No se requieren análisis de laboratorio o estudios de diagnóstico por imágenes.</p>
+      			<p><span class="glyphicon glyphicon-remove-sign"></span> No intente darle respiración boca a boca (como RCP).</p>
+      			<p><span class="glyphicon glyphicon-remove-circle"></span> No le ofrezca agua ni alimentos a la persona hasta que no esté completamente alerta.</p>
     		</div>
   		</div>
 	</div>
@@ -104,15 +138,13 @@
   		</div>
 	</div>
 
-	<footer class="container-fluid text-center">
+	<footer class="container-fluid text-center panel-footer">
   		<a href="#myPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   		</a><br>
-  		<i class="fa fa-facebook-official">
-  			<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
-  				Salud, atención al paciente & trabajo en equipo
-  			</a>
-  		</i>
+  		<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
+  			<i class="fa fa-facebook-official"></i>
+  		</a>
 	</footer>
 
 	<script>

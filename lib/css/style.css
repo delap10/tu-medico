@@ -1,19 +1,12 @@
-div.mision{
-	width: 100%;
-	margin-bottom: 50px;
+.mision{
 	background-color: white;
 }
-div.mision h1{
-	float: right;
-	margin-right: 70px;
-}
-div.mision h1, div.vision h1{
+.row h1{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 100px;
 	margin-top: 150px;
 }
-div.vision{
-	width: 100%;
+.vision{
 	margin-bottom: 50px;
 	background: rgba(248,80,50,1);
 	background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(168,0,2,1) 0%, rgba(120,0,1,1) 0%, rgba(231,56,39,1) 100%);
@@ -25,10 +18,16 @@ div.vision{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
 	float: left;
 }
-div.vision h1{
-	float: left;
-	margin-left: 70px;
-	color: white;
+div.circulo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/logo.png');
+    background-color: #FCFCFC;
+    background-repeat: no-repeat;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #152B36;
 }
 
 body {
@@ -51,15 +50,10 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #FCFCFC;
-      color: #f4511e;
+      background-color: #152B36;
+      color: #FBAE37;
       padding: 100px 25px;
       font-family: 'Lobster', cursive;
-      padding-right: 200px;
-  }
-  .jumbotron img{
-  	  float: left;
-  	  padding-left: 50px;
   }
   .container-fluid {
       padding: 60px 50px;
@@ -70,8 +64,6 @@ body {
   .logo-small {
       color: #f4511e;
       font-size: 50px;
-      background-image: url("lib/img/logo.png");
-      width: 10%;
   }
   .logo {
       color: #f4511e;
@@ -89,13 +81,13 @@ body {
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #f4511e;
+      color: #152B36;
   }
   .carousel-indicators li {
-      border-color: #f4511e;
+      border-color: #152B36;
   }
   .carousel-indicators li.active {
-      background-color: #f4511e;
+      background-color: #152B36;
   }
   .item h4 {
       font-size: 19px;
@@ -117,8 +109,8 @@ body {
   }
   .panel-footer .btn:hover {
       border: 1px solid #f4511e;
-      background-color: #fff !important;
-      color: #f4511e;
+      background-color: #152B36 !important;
+      color: #FBAE37;
   }
   .panel-heading {
       color: #fff !important;
@@ -131,7 +123,7 @@ body {
       border-bottom-right-radius: 0px;
   }
   .panel-footer {
-      background-color: white !important;
+      background-color: #152B36 !important;
   }
   .panel-footer h3 {
       font-size: 32px;
@@ -142,35 +134,35 @@ body {
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #f4511e;
+      background-color: #152B36;
       color: #fff;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #FCFCFC;
+      background-color: #152B36;
       z-index: 9999;
       border: 0;
-      font-size: 12px !important;
+      font-size: 14px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
-      font-family: 'Lobster', cursive;
+      font-family: 'Fresca', sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #f4511e !important;
+      color: #FBAE37 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #eee !important;
+      color: #152B36 !important;
+      background-color: #FCFCFC !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-      color: #f4511e !important;
+      color: #FBAE37 !important;
   }
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #f4511e;
+      color: #FBAE37;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -216,11 +208,12 @@ body {
     }
   }
   .fa-facebook-official{
-  	color: black;
+  	font-size: 48px;
+  	color: #aaa;
   }
   .fa-facebook-official:hover{
-  	font-size:24px;
-  	color:blue;
+  	font-size: 48px;
+  	color:#FBAE37;
   }
   i a:hover, a:visited{
   	text-decoration: none;
@@ -228,4 +221,7 @@ body {
   }
   i a:link, a:active {
   	color: blue;
+  }
+  .dropdown-menu{
+  	background-color: #152B36 !important;
   }

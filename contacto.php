@@ -28,21 +28,44 @@
 	        	<span class="icon-bar"></span>
 	        	<span class="icon-bar"></span>                        
 	      	</button>
-	      	<a class="navbar-brand" href="#myPage">Logo</a>
+	      	<a class="navbar-brand" href="#myPage">SAT</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	    	<ul class="nav navbar-nav navbar-right">
-	        	<li><a href="index.php">HOME</a></li>
+	        	<li><a href="#home">INICIO</a></li>
 	        	<li><a href="about.php">CONÓCENOS</a></li>
+	        	<li><a href="#curso">CURSOS</a></li>
+	        	<li><a href="#evento">EVENTOS</a></li>
+	        	<li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			        	VIDEOS <b class="caret"></b>
+			        </a>
+			        <ul class="dropdown-menu">
+			          	<li><a href="#">DESASTRES</a></li>
+			          	<li class="divider"></li>
+				        <li><a href="#">PRIMEROS AUXILIOS</a></li>
+				        <li class="divider"></li>
+				        <li><a href="#">FARMACOLOGÍA</a></li>
+			        </ul>
+			    </li>
 	        	<li><a href="#portfolio">COMUNIDAD</a></li>
-	        	<li><a href="#contact">CONTÁCTANOS</a></li>
+	        	<li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			        	TRABAJOS <b class="caret"></b>
+			        </a>
+			        <ul class="dropdown-menu">
+			          	<li><a href="#">ENFERMERÍA</a></li>
+				        <li><a href="#">AUXILIARES DE ENFERMERÍA</a></li>
+			        </ul>
+			    </li>
+	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
 	      	</ul>
 	    </div>
 	  </div>
 	</nav>
 
 	<div class="jumbotron text-center">
-		<img src="lib/img/logo.png" width="350">
+		<center><div class="circulo"></div></center><br>
   		<h1>Tú, médico</h1> 
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
@@ -99,15 +122,13 @@
   		</div>
 	</div>
 
-	<footer class="container-fluid text-center">
+	<footer class="container-fluid text-center panel-footer">
   		<a href="#myPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   		</a><br>
-  		<i class="fa fa-facebook-official">
-  			<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
-  				Salud, atención al paciente & trabajo en equipo
-  			</a>
-  		</i>
+  		<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
+  			<i class="fa fa-facebook-official"></i>
+  		</a>
 	</footer>
 
 	<script>
