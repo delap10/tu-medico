@@ -21,37 +21,25 @@
 	        	<span class="icon-bar"></span>
 	        	<span class="icon-bar"></span>                        
 	      	</button>
-	      	<a class="navbar-brand" href="#myPage">SAT</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
-	    	<ul class="nav navbar-nav navbar-right">
+	    	<ul class="nav navbar-nav">
 	        	<li><a href="#home">INICIO</a></li>
 	        	<li><a href="about.php">CONÓCENOS</a></li>
-	        	<li><a href="#curso">CURSOS</a></li>
-	        	<li><a href="#evento">EVENTOS</a></li>
-	        	<li class="dropdown">
-			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-			        	VIDEOS <b class="caret"></b>
-			        </a>
-			        <ul class="dropdown-menu">
-			          	<li><a href="#">DESASTRES</a></li>
-			          	<li class="divider"></li>
-				        <li><a href="#">PRIMEROS AUXILIOS</a></li>
-				        <li class="divider"></li>
-				        <li><a href="#">FARMACOLOGÍA</a></li>
-			        </ul>
-			    </li>
-	        	<li><a href="#portfolio">COMUNIDAD</a></li>
-	        	<li class="dropdown">
-			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-			        	TRABAJOS <b class="caret"></b>
-			        </a>
-			        <ul class="dropdown-menu">
-			          	<li><a href="#">ENFERMERÍA</a></li>
-				        <li><a href="#">AUXILIARES DE ENFERMERÍA</a></li>
-			        </ul>
-			    </li>
 	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
+	        	<li><a href="curso.php">CURSOS</a></li>
+	        	<li><a href="#evento">LIVE</a></li>
+	      	</ul>
+
+	      	<ul class="nav navbar-nav navbar-right">
+	      		<form class="navbar-form navbar-left" role="search">
+			      	<div class="form-group">
+			        	<a href="about.php" class="btn btn-info boton-izq">REGÍSTRATE</a>
+			      	</div>
+			      	<div class="form-group">
+			      		<a href="contacto.php" class="btn btn-success boton-der">INICIA SESIÓN</a>
+			      	</div>
+			    </form>
 	      	</ul>
 	    </div>
 	  </div>
@@ -59,7 +47,7 @@
 
 	<div class="jumbotron text-center">
 		<center><div class="circulo"></div></center><br>
-  		<h1>Tú, médico</h1> 
+  		<h1>Yo, médico</h1> 
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
 
@@ -79,7 +67,7 @@
       			<p><span class="glyphicon glyphicon-time"></span> Agudas: se curan en cuestión de días o semanas.</p>
     		</div>
     		<div class="col-sm-5">
-      			<img src="lib/img/quemadura.jpg" class="col-sm-12">
+      			<img src="lib/img/quemadura.jpg" class="col-sm-12 slideanim">
     		</div>
   		</div>
 	</div>
@@ -87,7 +75,7 @@
 	<div class="container-fluid bg-grey">
   		<div class="row">
     		<div class="col-sm-5">
-      			<img src="lib/img/convulsion.jpg" class="col-sm-12"/>
+      			<img src="lib/img/convulsion.jpg" class="col-sm-12 slideanim"/>
     		</div>
     		<div class="col-sm-7">
       			<h2>¿Qué hacer en caso de una convulsión</h2><br>

@@ -225,3 +225,23 @@ body {
   .dropdown-menu{
   	background-color: #152B36 !important;
   }
+  .boton-der, .boton-izq{
+	display: block;
+    text-align: center;
+	cursor: pointer;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+  }
+  .boton-izq{
+  	box-shadow: inset 0 0 0 0 #08F;
+  }
+  .boton-izq:hover{
+  	box-shadow: inset 340px 0 0 0 #0CA;
+  }
+  .boton-der{
+  	box-shadow: inset 0 0 0 0 #0CA;
+  }
+  .boton-der:hover{
+  	box-shadow: inset 340px 0 0 0 #08F;
+  }

@@ -25,9 +25,9 @@
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	    	<ul class="nav navbar-nav">
 	        	<li><a href="index.php">INICIO</a></li>
-	        	<li><a href="#about">CONÓCENOS</a></li>
+	        	<li><a href="about.php">CONÓCENOS</a></li>
 	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
-	        	<li><a href="curso.php">CURSOS</a></li>
+	        	<li><a href="#curso">CURSOS</a></li>
 	        	<li><a href="#evento">LIVE</a></li>
 	      	</ul>
 
@@ -51,25 +51,16 @@
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
 
-	<div id="about" class="container-fluid">
-  		<div class="row mision">
-    		<div class="col-sm-9">
-				<img src="lib/img/mision.jpg" alt="Misión" class="slideanim">
-			</div>
-			<div class="col-sm-3">
-				<h1>Misión</h1>
-			</div>
-  		</div>
-	</div>
-	
-	<div class="container-fluid">
-  		<div class="row vision">
-  			<div class="col-sm-3">
-				<h1 style="color: white;">Visión</h1>
-			</div>
-    		<div class="col-sm-9">
-				<img src="lib/img/vision.jpg" class="slideanim" alt="Visión">
-			</div>
+	<!-- Container (About Section) -->
+	<div id="curso" class="container-fluid">
+  		<div class="row text-center">
+          <h2>Material requrido</h2>
+          <ul>
+            <li>Ropa cómoda</li>
+            <li>Lápiz/lapiceros</li>
+            <li>Guantes</li>
+            <li>Otra mudada</li>
+          </ul>
   		</div>
 	</div>
 
@@ -117,5 +108,6 @@
   			});
 		})
 	</script>
+
 </body>
 </html>
