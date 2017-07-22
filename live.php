@@ -25,10 +25,10 @@
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	    	<ul class="nav navbar-nav">
 	        	<li><a href="index.php">INICIO</a></li>
-	        	<li class="active"><a href="#about">CONÓCENOS</a></li>
+	        	<li><a href="about.php">CONÓCENOS</a></li>
 	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
 	        	<li><a href="curso.php">CURSOS</a></li>
-	        	<li><a href="live.php">LIVE</a></li>
+	        	<li class="active"><a href="#evento">LIVE</a></li>
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">
@@ -51,25 +51,10 @@
   		<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
 
-	<div id="about" class="container-fluid">
-  		<div class="row mision">
-    		<div class="col-sm-9">
-				<img src="lib/img/mision.jpg" alt="Misión" class="slideanim">
-			</div>
-			<div class="col-sm-3">
-				<h1>Misión</h1>
-			</div>
-  		</div>
-	</div>
-	
-	<div class="container-fluid">
-  		<div class="row vision">
-  			<div class="col-sm-3">
-				<h1 style="color: white;">Visión</h1>
-			</div>
-    		<div class="col-sm-9">
-				<img src="lib/img/vision.jpg" class="slideanim" alt="Visión">
-			</div>
+	<!-- Container (About Section) -->
+	<div id="curso" class="container-fluid">
+  		<div class="row text-center">
+          <h1>PROXIMAMENTE</h1>
   		</div>
 	</div>
 
@@ -117,5 +102,6 @@
   			});
 		})
 	</script>
+
 </body>
 </html>

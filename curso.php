@@ -27,8 +27,8 @@
 	        	<li><a href="index.php">INICIO</a></li>
 	        	<li><a href="about.php">CONÓCENOS</a></li>
 	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
-	        	<li><a href="#curso">CURSOS</a></li>
-	        	<li><a href="#evento">LIVE</a></li>
+	        	<li class="active"><a href="#curso">CURSOS</a></li>
+	        	<li><a href="live.php">LIVE</a></li>
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">

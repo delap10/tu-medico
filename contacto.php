@@ -33,9 +33,9 @@
 	    	<ul class="nav navbar-nav">
 	        	<li><a href="index.php">INICIO</a></li>
 	        	<li><a href="about.php">CONÓCENOS</a></li>
-	        	<li><a href="#contact">CONTÁCTANOS</a></li>
+	        	<li class="active"><a href="#contact">CONTÁCTANOS</a></li>
 	        	<li><a href="curso.php">CURSOS</a></li>
-	        	<li><a href="#evento">LIVE</a></li>
+	        	<li><a href="live.php">LIVE</a></li>
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">

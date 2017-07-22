@@ -24,11 +24,11 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	    	<ul class="nav navbar-nav">
-	        	<li><a href="#home">INICIO</a></li>
+	        	<li class="active"><a href="#home">INICIO</a></li>
 	        	<li><a href="about.php">CONÓCENOS</a></li>
 	        	<li><a href="contacto.php">CONTÁCTANOS</a></li>
 	        	<li><a href="curso.php">CURSOS</a></li>
-	        	<li><a href="#evento">LIVE</a></li>
+	        	<li><a href="live.php">LIVE</a></li>
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">
