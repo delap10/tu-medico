@@ -52,16 +52,17 @@
 	  </div>
 	</nav>
 
-	<div class="jumbotron text-center">
-		<center><div class="circulo"></div></center><br>
-  		<h1>Yo, médico</h1> 
-  		<p>Salud, Atención al paciente & Trabajo en equipo</p>
+	<div class="canvas">
+		<center>
+			<canvas id="demo" width="500" height="200"></canvas>
+			<script src="ecg.js"></script>
+		</center>
 	</div>
 
 	<!-- Container (Maps Section) -->
 	<div id="contact" class="container-fluid">
 		<div class="row">
-			<div id="map" class="slideanim"></div>
+			<div id="map"></div>
 			<script>
 		     	function initMap() {
 		        	var uluru = {lat: 14.879146, lng: -92.254614};

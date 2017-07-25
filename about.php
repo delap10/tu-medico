@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="http://code.jquery.com/jquery.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/egc.js"></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -32,7 +33,7 @@
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">
-	      		<form class="navbar-form navbar-left" role="search">
+	      		<form class="navbar-form navbar-left">
 			      	<div class="form-group">
 			        	<a href="about.php" class="btn btn-info boton-izq">REGÍSTRATE</a>
 			      	</div>
@@ -44,17 +45,16 @@
 	    </div>
 	  </div>
 	</nav>
-
-	<div class="jumbotron text-center">
-		<center><div class="circulo"></div></center><br>
-  		<h1>Yo, médico</h1> 
-  		<p>Salud, Atención al paciente & Trabajo en equipo</p>
+	<div class="canvas">
+		<center>
+			<canvas id="demo" width="500" height="200"></canvas>
+			<script src="ecg.js"></script>
+		</center>
 	</div>
-
 	<div id="about" class="container-fluid">
   		<div class="row mision">
     		<div class="col-sm-9">
-				<img src="lib/img/mision.jpg" alt="Misión" class="slideanim">
+				<img src="lib/img/mision.jpg" alt="Misión">
 			</div>
 			<div class="col-sm-3">
 				<h1>Misión</h1>

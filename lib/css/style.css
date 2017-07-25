@@ -245,3 +245,39 @@ body {
   .boton-der:hover{
   	box-shadow: inset 340px 0 0 0 #08F;
   }
+  div.canvas, canvas{
+    background: #152B36;
+  }
+  canvas {
+  cursor: crosshair;
+}
+.words{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #99E1D9;
+  overflow: hidden;
+}
+.words-1 {
+  color: #99E1E0;
+  font-size: 0;
+  line-height: 1;
+  span {
+    font-size: 120px;
+    display: inline-block;
+    animation: move 2s ease-in-out infinite;
+    &:nth-child(2) { animation-delay: 0.4s; }
+    &:nth-child(3) { animation-delay: 0.8s; }
+    &:nth-child(4) { animation-delay: 1.3s; }
+  }
+}
+
+@keyframes move {
+  0% { transform: translate(-25%, 0);}
+  50% { text-shadow: 0 15px 40px rgba(black, 0.6); }
+  100% { transform: translate(33%, 0); }
+}

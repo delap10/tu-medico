@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/css/style.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/live-background.css">
 	<link href="https://fonts.googleapis.com/css?family=Fresca|Lobster|Shadows+Into+Light" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="http://code.jquery.com/jquery.js"></script>
@@ -13,6 +14,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+	<!-- Iconos para el fondo de pantalla -->
+	<div>
+		<ul class="bg-bubbles">
+			<li><i class="fa fa-stethoscope" style="font-size: 150px;"></i></li>
+			<li><i class="fa fa-heartbeat" style="font-size: 100px;"></i></li>
+			<li><i class="fa fa-user-md" style="font-size: 50px;"></i></li>
+			<li><i class="fa fa-plus-square" style="font-size: 100px;"></i></li>
+			<li><i class="fa fa-medkit" style="font-size: 48px;"></i></li>
+			<li><i class="fa fa-hospital-o" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-heart" style="font-size: 48px;"></i></li>
+			<li><i class="fa fa-ambulance" style="font-size: 36px;"></i></li>
+			<li><i class="fa fa-h-square" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-heart-o" style="font-size: 36px;"></i></li>
+
+			<li><i class="fa fa-heart-o" style="font-size: 100px;"></i></li>
+			<li><i class="fa fa-h-square" style="font-size: 50px;"></i></li>
+			<li><i class="fa fa-ambulance" style="font-size: 50px;"></i></li>
+			<li><i class="fa fa-heart" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-hospital-o" style="font-size: 48px;"></i></li>
+			<li><i class="fa fa-medkit" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-plus-square" style="font-size: 36px;"></i></li>
+			<li><i class="fa fa-user-md" style="font-size: 150px;"></i></li>
+			<li><i class="fa fa-heartbeat" style="font-size: 48px;"></i></li>
+			<li><i class="fa fa-stethoscope" style="font-size: 16px;"></i></li>
+			
+			<li><i class="fa fa-plus-square" style="font-size: 36px;"></i></li>
+			<li><i class="fa fa-medkit" style="font-size: 100px;"></i></li>
+			<li><i class="fa fa-hospital-o" style="font-size: 150px;"></i></li>
+			<li><i class="fa fa-stethoscope" style="font-size: 50px;"></i></li>
+			<li><i class="fa fa-ambulance" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-h-square" style="font-size: 48px;"></i></li>
+			<li><i class="fa fa-heartbeat" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-user-md" style="font-size: 36px;"></i></li>
+			<li><i class="fa fa-heart" style="font-size: 100px;"></i></li>
+			<li><i class="fa fa-heart-o" style="font-size: 50px;"></i></li>
+		</ul>
+	</div>
+
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 	    <div class="navbar-header">
@@ -45,26 +85,29 @@
 	  </div>
 	</nav>
 
-	<div class="jumbotron text-center">
-		<center><div class="circulo"></div></center><br>
-  		<h1>Yo, médico</h1> 
-  		<p>Salud, Atención al paciente & Trabajo en equipo</p>
+	<div class="canvas">
+		<center>
+			<canvas id="demo" width="500" height="200" class="contenido"></canvas>
+			<script src="ecg.js"></script>
+		</center>
 	</div>
 
 	<!-- Container (About Section) -->
 	<div id="curso" class="container-fluid">
-  		<div class="row text-center">
+  		<div class="row text-center contenido">
           <h1>PROXIMAMENTE</h1>
   		</div>
 	</div>
 
 	<footer class="container-fluid text-center panel-footer">
-  		<a href="#myPage" title="To Top">
-    		<span class="glyphicon glyphicon-chevron-up"></span>
-  		</a><br>
-  		<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
-  			<i class="fa fa-facebook-official"></i>
-  		</a>
+  		<div class="contenido">
+	  		<a href="#myPage" title="To Top">
+	    		<span class="glyphicon glyphicon-chevron-up"></span>
+	  		</a><br>
+	  		<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
+	  			<i class="fa fa-facebook-official"></i>
+	  		</a>
+	  	</div>
 	</footer>
 
 	<script>

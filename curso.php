@@ -45,10 +45,11 @@
 	  </div>
 	</nav>
 
-	<div class="jumbotron text-center">
-		<center><div class="circulo"></div></center><br>
-  		<h1>Yo, médico</h1> 
-  		<p>Salud, Atención al paciente & Trabajo en equipo</p>
+	<div class="canvas">
+		<center>
+			<canvas id="demo" width="500" height="200"></canvas>
+			<script src="ecg.js"></script>
+		</center>
 	</div>
 
 	<!-- Container (About Section) -->

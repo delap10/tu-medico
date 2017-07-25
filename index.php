@@ -92,7 +92,7 @@
 	</div>
 
 	<!-- Container (Portfolio Section) -->
-	<div id="portfolio" class="container-fluid text-center bg-grey">
+	<div id="portfolio" class="container-fluid text-center">
   		<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     	<!-- Indicators -->
     		<ol class="carousel-indicators">
