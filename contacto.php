@@ -41,10 +41,10 @@
 	      	<ul class="nav navbar-nav navbar-right">
 	      		<form class="navbar-form navbar-left" role="search">
 			      	<div class="form-group">
-			        	<a href="about.php" class="btn btn-info boton-izq">REGÍSTRATE</a>
+			        	<a href="about.php" class="btn btn-info boton-izq"><span><i class="fa fa-pencil" aria-hidden="true"></i>REGÍSTRATE</span></a>
 			      	</div>
 			      	<div class="form-group">
-			      		<a href="contacto.php" class="btn btn-success boton-der">INICIA SESIÓN</a>
+			      		<a href="contacto.php" class="btn btn-success boton-der"><span><i class="fa fa-sign-in" aria-hidden="true"></i>INICIA SESIÓN</span></a>
 			      	</div>
 			    </form>
 	      	</ul>

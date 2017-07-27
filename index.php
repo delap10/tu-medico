@@ -34,10 +34,10 @@
 	      	<ul class="nav navbar-nav navbar-right">
 	      		<form class="navbar-form navbar-left" role="search">
 			      	<div class="form-group">
-			        	<a href="about.php" class="btn btn-info boton-izq">REGÍSTRATE</a>
+			        	<a href="about.php" class="btn btn-info boton-izq"><span><i class="fa fa-pencil" aria-hidden="true"></i>REGÍSTRATE</span></a>
 			      	</div>
 			      	<div class="form-group">
-			      		<a href="contacto.php" class="btn btn-success boton-der">INICIA SESIÓN</a>
+			      		<a href="contacto.php" class="btn btn-success boton-der"><span><i class="fa fa-sign-in" aria-hidden="true"></i>INICIA SESIÓN</span></a>
 			      	</div>
 			    </form>
 	      	</ul>
@@ -46,9 +46,9 @@
 	</nav>
 
 	<div class="jumbotron text-center">
-		<center><div class="circulo"></div></center><br>
-  		<h1>Yo, médico</h1> 
-  		<p>Salud, Atención al paciente & Trabajo en equipo</p>
+		<img src="lib/img/logo.png" class="img-circle">
+    <h1>Yo, médico</h1> 
+  	<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
 
 	<!-- Container (About Section) -->

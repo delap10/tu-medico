@@ -33,12 +33,12 @@
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">
-	      		<form class="navbar-form navbar-left">
+	      		<form class="navbar-form navbar-left" role="search">
 			      	<div class="form-group">
-			        	<a href="about.php" class="btn btn-info boton-izq">REGÍSTRATE</a>
+			        	<a href="about.php" class="btn btn-info boton-izq"><span><i class="fa fa-pencil" aria-hidden="true"></i>REGÍSTRATE</span></a>
 			      	</div>
 			      	<div class="form-group">
-			      		<a href="contacto.php" class="btn btn-success boton-der">INICIA SESIÓN</a>
+			      		<a href="contacto.php" class="btn btn-success boton-der"><span><i class="fa fa-sign-in" aria-hidden="true"></i>INICIA SESIÓN</span></a>
 			      	</div>
 			    </form>
 	      	</ul>
@@ -51,7 +51,7 @@
 			<script src="ecg.js"></script>
 		</center>
 	</div>
-	<div id="about" class="container-fluid">
+	<div id="about" class="container-fluid bg-grey">
   		<div class="row mision">
     		<div class="col-sm-9">
 				<img src="lib/img/mision.jpg" alt="Misión">
@@ -71,6 +71,59 @@
 				<img src="lib/img/vision.jpg" class="slideanim" alt="Visión">
 			</div>
   		</div>
+	</div>
+
+	<div class="container-fluid text-center bg-grey">
+		<div class="row text-center">
+			<h1>Nuestro equipo</h1>
+			<div class="card">
+			  	<img src="lib/img/img_avatar.png" class="img-circle" alt="Avatar" style="width:100%">
+			  	<div class="container-card">
+			    	<h4><b>John Doe</b></h4> 
+			    	<p>Architect & Engineer</p> 
+			  	</div>
+			</div>
+
+			<div class="card">
+			  	<img src="lib/img/img_avatar.png" class="img-circle" alt="Avatar" style="width:100%">
+			  	<div class="container-card">
+			    	<h4><b>John Doe</b></h4> 
+			    	<p>Architect & Engineer</p> 
+			  	</div>
+			</div>
+
+			<div class="card">
+			  	<img src="lib/img/img_avatar.png" class="img-circle" alt="Avatar" style="width:100%">
+			  	<div class="container-card">
+			    	<h4><b>John Doe</b></h4> 
+			    	<p>Architect & Engineer</p> 
+			  	</div>
+			</div>
+
+			<div class="card">
+			  	<img src="lib/img/img_avatar.png" class="img-circle" alt="Avatar" style="width:100%">
+			  	<div class="container-card">
+			    	<h4><b>John Doe</b></h4> 
+			    	<p>Architect & Engineer</p> 
+			  	</div>
+			</div>
+
+			<div class="card">
+			  	<img src="lib/img/img_avatar.png" class="img-circle" alt="Avatar" style="width:100%">
+			  	<div class="container-card">
+			    	<h4><b>John Doe</b></h4> 
+			    	<p>Architect & Engineer</p> 
+			  	</div>
+			</div>
+
+			<div class="card">
+			  	<img src="lib/img/img_avatar.png" class="img-circle" alt="Avatar" style="width:100%">
+			  	<div class="container-card">
+			    	<h4><b>John Doe</b></h4> 
+			    	<p>Architect & Engineer</p> 
+			  	</div>
+			</div>
+		</div>	
 	</div>
 
 	<footer class="container-fluid text-center panel-footer">
