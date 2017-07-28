@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
 body{
-  background: #50a3a2;
+  /*background: #50a3a2;
   background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%) fixed;
-  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%) fixed;
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%) fixed;*/
+  background-image: url(../img/pink-dust.png);
+  background-repeat: repeat;
   position: absolute;
   left: 0;
   width: 100%;
@@ -23,7 +25,7 @@ body{
   z-index: 1;
 }
 .bg-bubbles li {
-  color: white;
+  color: #6F4D55;
   position: absolute;
   list-style: none;
   display: block;

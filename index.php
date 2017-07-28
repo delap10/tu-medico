@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Tú, médico</title>
+	<title>Yo médico</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/css/style.css">
+  <link rel="stylesheet" type="text/css" href="lib/css/form.css">
 	<link href="https://fonts.googleapis.com/css?family=Fresca|Lobster|Shadows+Into+Light" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="http://code.jquery.com/jquery.js"></script>
+	<link rel="stylesheet" href="lib/css/font-awesome.min.css">
+  <script src="lib/js/jquery.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,13 +33,13 @@
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">
-	      		<form class="navbar-form navbar-left" role="search">
+	      		<form class="navbar-form navbar-left">
 			      	<div class="form-group">
-			        	<a href="about.php" class="btn btn-info boton-izq"><span><i class="fa fa-pencil" aria-hidden="true"></i>REGÍSTRATE</span></a>
+			        	<button class="button"><span><i class="fa fa-pencil" aria-hidden="true"></i> REGÍSTRATE</span></button>
 			      	</div>
-			      	<div class="form-group">
-			      		<a href="contacto.php" class="btn btn-success boton-der"><span><i class="fa fa-sign-in" aria-hidden="true"></i>INICIA SESIÓN</span></a>
-			      	</div>
+			      	<!-- div class="form-group" -->
+			      		<button class="button" onclick="document.getElementById('form-login').style.display='block'" style="width:auto;"><span><i class="fa fa-sign-in" aria-hidden="true"></i> INICIA SESIÓN</span></button>
+			      	<!--/div -->
 			    </form>
 	      	</ul>
 	    </div>
@@ -46,7 +47,7 @@
 	</nav>
 
 	<div class="jumbotron text-center">
-		<img src="lib/img/logo.png" class="img-circle">
+		<img src="lib/img/yo-medico-logo.jpg" class="img-circle" width="200">
     <h1>Yo, médico</h1> 
   	<p>Salud, Atención al paciente & Trabajo en equipo</p>
 	</div>
@@ -126,13 +127,49 @@
   		</div>
 	</div>
 
+  <div id="form-login" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('form-login').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="lib/img/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container-form">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" class="act"><span><i class="fa fa-sign-in" aria-hidden="true"></i></span> Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container-form" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('form-login');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
 	<footer class="container-fluid text-center panel-footer">
   		<a href="#myPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   		</a><br>
-  		<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/">
-  			<i class="fa fa-facebook-official"></i>
-  		</a>
+  		<a href="https://www.facebook.com/Salud-Atenci%C3%B3n-al-paciente-Trabajo-en-equipo-663834127160759/" class="fa fa-facebook"></a>
 	</footer>
 
 	<script>

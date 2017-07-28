@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Tú, médico</title>
+	<title>Yo médico</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/css/style.css">
 	<link rel="stylesheet" type="text/css" href="lib/css/live-background.css">
 	<link href="https://fonts.googleapis.com/css?family=Fresca|Lobster|Shadows+Into+Light" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="http://code.jquery.com/jquery.js"></script>
-    <script src="lib/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="lib/css/font-awesome.min.css">
+	<script src="lib/js/jquery.min.js"></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -18,38 +17,38 @@
 	<!-- Iconos para el fondo de pantalla -->
 	<div>
 		<ul class="bg-bubbles">
-			<li><i class="fa fa-stethoscope" style="font-size: 150px;"></i></li>
-			<li><i class="fa fa-heartbeat" style="font-size: 100px;"></i></li>
-			<li><i class="fa fa-user-md" style="font-size: 50px;"></i></li>
-			<li><i class="fa fa-plus-square" style="font-size: 100px;"></i></li>
-			<li><i class="fa fa-medkit" style="font-size: 48px;"></i></li>
-			<li><i class="fa fa-hospital-o" style="font-size: 16px;"></i></li>
-			<li><i class="fa fa-heart" style="font-size: 48px;"></i></li>
-			<li><i class="fa fa-ambulance" style="font-size: 36px;"></i></li>
-			<li><i class="fa fa-h-square" style="font-size: 16px;"></i></li>
-			<li><i class="fa fa-heart-o" style="font-size: 36px;"></i></li>
+			<li><i class="fa fa-stethoscope""></i></li>
+			<li><i class="fa fa-heartbeat"></i></li>
+			<li><i class="fa fa-user-md"></i></li>
+			<li><i class="fa fa-plus-square"></i></li>
+			<li><i class="fa fa-medkit" ></i></li>
+			<li><i class="fa fa-hospital-o"></i></li>
+			<li><i class="fa fa-heart"></i></li>
+			<li><i class="fa fa-ambulance"></i></li>
+			<li><i class="fa fa-h-square"></i></li>
+			<li><i class="fa fa-heart-o"></i></li>
 
-			<li><i class="fa fa-heart-o" style="font-size: 100px;"></i></li>
-			<li><i class="fa fa-h-square" style="font-size: 50px;"></i></li>
-			<li><i class="fa fa-ambulance" style="font-size: 50px;"></i></li>
-			<li><i class="fa fa-heart" style="font-size: 16px;"></i></li>
-			<li><i class="fa fa-hospital-o" style="font-size: 48px;"></i></li>
-			<li><i class="fa fa-medkit" style="font-size: 16px;"></i></li>
-			<li><i class="fa fa-plus-square" style="font-size: 36px;"></i></li>
-			<li><i class="fa fa-user-md" style="font-size: 150px;"></i></li>
-			<li><i class="fa fa-heartbeat" style="font-size: 48px;"></i></li>
-			<li><i class="fa fa-stethoscope" style="font-size: 16px;"></i></li>
+			<li><i class="fa fa-heart-o"></i></li>
+			<li><i class="fa fa-h-square"></i></li>
+			<li><i class="fa fa-ambulance"></i></li>
+			<li><i class="fa fa-heart"></i></li>
+			<li><i class="fa fa-hospital-o"></i></li>
+			<li><i class="fa fa-medkit"></i></li>
+			<li><i class="fa fa-plus-square"></i></li>
+			<li><i class="fa fa-user-md"></i></li>
+			<li><i class="fa fa-heartbeat"></i></li>
+			<li><i class="fa fa-stethoscope"></i></li>
 			
-			<li><i class="fa fa-plus-square" style="font-size: 36px;"></i></li>
-			<li><i class="fa fa-medkit" style="font-size: 100px;"></i></li>
-			<li><i class="fa fa-hospital-o" style="font-size: 150px;"></i></li>
-			<li><i class="fa fa-stethoscope" style="font-size: 50px;"></i></li>
-			<li><i class="fa fa-ambulance" style="font-size: 16px;"></i></li>
-			<li><i class="fa fa-h-square" style="font-size: 48px;"></i></li>
-			<li><i class="fa fa-heartbeat" style="font-size: 16px;"></i></li>
-			<li><i class="fa fa-user-md" style="font-size: 36px;"></i></li>
-			<li><i class="fa fa-heart" style="font-size: 100px;"></i></li>
-			<li><i class="fa fa-heart-o" style="font-size: 50px;"></i></li>
+			<li><i class="fa fa-plus-square"></i></li>
+			<li><i class="fa fa-medkit"></i></li>
+			<li><i class="fa fa-hospital-o"></i></li>
+			<li><i class="fa fa-stethoscope"></i></li>
+			<li><i class="fa fa-ambulance"></i></li>
+			<li><i class="fa fa-h-square"></i></li>
+			<li><i class="fa fa-heartbeat"></i></li>
+			<li><i class="fa fa-user-md"></i></li>
+			<li><i class="fa fa-heart"></i></li>
+			<li><i class="fa fa-heart-o"></i></li>
 		</ul>
 	</div>
 
@@ -72,12 +71,12 @@
 	      	</ul>
 
 	      	<ul class="nav navbar-nav navbar-right">
-	      		<form class="navbar-form navbar-left" role="search">
+	      		<form class="navbar-form navbar-left">
 			      	<div class="form-group">
-			        	<a href="about.php" class="btn btn-info boton-izq"><span><i class="fa fa-pencil" aria-hidden="true"></i>REGÍSTRATE</span></a>
+			        	<button class="button"><span><i class="fa fa-pencil" aria-hidden="true"></i> REGÍSTRATE</span></button>
 			      	</div>
 			      	<div class="form-group">
-			      		<a href="contacto.php" class="btn btn-success boton-der"><span><i class="fa fa-sign-in" aria-hidden="true"></i>INICIA SESIÓN</span></a>
+			      		<button class="button"><span><i class="fa fa-sign-in" aria-hidden="true"></i> INICIA SESIÓN</span></button>
 			      	</div>
 			    </form>
 	      	</ul>
